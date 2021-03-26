@@ -26,7 +26,8 @@ The file `PaviaU` HSI includes 9 endmembers, each one corresponding to a certain
 |8| Meadows|
 |9| Bare Soil|
 
-<img src="ground_truth_raw_masked_bg.png" alt="Ground truth for the Pavia University USI dataset" style="height: 100px; width:100px;"/>
+<!--<img src="ground_truth_raw_masked_bg.png" alt="Ground truth for the Pavia University USI dataset" style="height: 100px; width:100px;"/>-->
+<img src="ground_truth_raw_masked_bg.png" alt="Ground truth for the Pavia University USI dataset"/>
 
 ## Libraries
 
