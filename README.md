@@ -68,9 +68,9 @@ First, I calculate the abundance maps for each material, i.e. 9 maps.
 Then I compute the reconstruction error as follows:
 
 I calculate the reconstruction error (for each non-zero class label) of **each pixel** using the formula:
-    $$error = \frac{||\mathbf{y}_i - \mathbf{X}\mathbb{\theta}_i||^2}{||\mathbf{y}_i||^2}$$
+    $error = \frac{||\mathbf{y}_i - \mathbf{X}\mathbb{\theta}_i||^2}{||\mathbf{y}_i||^2}$
 Then, for **N pixels** I compute the **average** value:
-    $$\text{reconstruction error} = \frac{error}{N} $$
+    $\text{reconstruction error} = \frac{error}{N} $
     
 Finaly, I [compare](#Comparison-of-regressors) the results obtained from the above five methods based on the abundance maps and the reconstruction error.
 
