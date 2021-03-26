@@ -55,13 +55,13 @@ I consider the following models:
 
 ### (a) Least squares
 
-### (b) Least squares imposing the sum-to-one constraint for <em>θ</em>s,
+### (b) Least squares imposing the sum-to-one constraint for <em>θs</em>,
 
-### (c) Least squares imposing the sum-to-one constraint for <em>θ</em>s,
+### (c) Least squares imposing the sum-to-one constraint for <em>θs</em>,
 
-### (d) Least squares imposing both the non-negativity and the sum-to-one constraint for <em>θ</em>s,
+### (d) Least squares imposing both the non-negativity and the sum-to-one constraint for <em>θs</em>,
 
-### (e) LASSO, imposing sparsity on <em>θ</em>s via l1 norm minimization.
+### (e) LASSO, imposing sparsity on <em>θs</em> via l1 norm minimization.
 
 First, I calculate the abundance maps for each material, i.e. 9 maps. 
 
