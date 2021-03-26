@@ -55,7 +55,7 @@ I consider the following models:
 
 ### (a) Least squares
 
-### (b) Least squares imposing the sum-to-one constraint for $\theta$s,
+### (b) Least squares imposing the sum-to-one constraint for <em>θ</em>s,
 
 ### (c) Least squares imposing the sum-to-one constraint for $\theta$s,
 
@@ -67,21 +67,14 @@ First, I calculate the abundance maps for each material, i.e. 9 maps.
 
 Then I compute the reconstruction error as follows:
 
-I calculate the reconstruction error (for each non-zero class label) of **each pixel** using the formula:
-    $error = \frac{||\mathbf{y}_i - \mathbf{X}\mathbb{\theta}_i||^2}{||\mathbf{y}_i||^2}$
-Then, for **N pixels** I compute the **average** value:
-<!--    $\text{reconstruction error} = \frac{error}{N} $-->
-    
-![\Large rec_error = \frac{error}{N}](https://latex.codecogs.com/svg.latex?\Large&space;rec_error = \frac{error}{N})
+I calculate the reconstruction error (for each non-zero class label) of **each pixel** acompute the **average** value for **N pixels**.
 
-![\Large  error = \frac{||\mathbf{y}_i - \mathbf{X}\mathbb{\theta}_i||^2}{||\mathbf{y}_i||^2}](https://latex.codecogs.com/svg.latex?\Large&space;error =  \frac{||\mathbf{y}_i - \mathbf{X}\mathbb{\theta}_i||^2}{||\mathbf{y}_i||^2})
-        
 Finaly, I [compare](#Comparison-of-regressors) the results obtained from the above five methods based on the abundance maps and the reconstruction error.
 
 
 ## Part 2: Classification
 
-In this case, I consider also the image pixels with non-zero class label.I assign each one of them to the most appropriate class, among the 9 known classes.
+In this case, I consider also the image pixels with non-zero class label. I assign each one of them to the most appropriate class, among the 9 known classes.
 
 The classification is perfomed with **four** classifiers:
 
