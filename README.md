@@ -74,7 +74,7 @@ Then, for **N pixels** I compute the **average** value:
     
 ![\Large rec_error = \frac{error}{N}](https://latex.codecogs.com/svg.latex?\Large&space;rec_error = \frac{error}{N})
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
+![\Large  error = \frac{||\mathbf{y}_i - \mathbf{X}\mathbb{\theta}_i||^2}{||\mathbf{y}_i||^2}](https://latex.codecogs.com/svg.latex?\Large&space;error =  \frac{||\mathbf{y}_i - \mathbf{X}\mathbb{\theta}_i||^2}{||\mathbf{y}_i||^2})
         
 Finaly, I [compare](#Comparison-of-regressors) the results obtained from the above five methods based on the abundance maps and the reconstruction error.
 
