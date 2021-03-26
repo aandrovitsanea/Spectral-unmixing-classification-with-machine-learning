@@ -72,7 +72,7 @@ I calculate the reconstruction error (for each non-zero class label) of **each p
 Then, for **N pixels** I compute the **average** value:
 <!--    $\text{reconstruction error} = \frac{error}{N} $-->
     
-    ![\Large \text{reconstruction error} = \frac{error}{N}(https://latex.codecogs.com/svg.latex?\Large&space;\text{reconstruction error} = \frac{error}{N}) 
+![\Large \text{reconstruction error} = \frac{error}{N}](https://latex.codecogs.com/svg.latex?\Large&space;\text{reconstruction error} = \frac{error}{N}) 
         
 Finaly, I [compare](#Comparison-of-regressors) the results obtained from the above five methods based on the abundance maps and the reconstruction error.
 
