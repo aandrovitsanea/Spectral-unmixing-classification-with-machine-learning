@@ -1,4 +1,4 @@
-# Hyperspectral images (HSIs) - Spectral unmixing and classification (supervised, unsupervised)
+# Spectral unmixing and classification (supervised, unsupervised) with Machine Learning for Hyperspectral images (HSIs)
 
 ## Framework
 An HSI depicts a specific scene at several (L) narrow continuous spectral bands (actually, they visualize the reflectance of the depicted scene in various spectral bands). It can be represented by a MxNxL three-dimensional cube, where the first two dimensions correspond to the spatial information, while the third corresponds to the spectral information. Thus, the (i,j) pixel in such an image, i=1,...,M, j=1,...,N, is represented by an L-dimensional vector (constituted by the corresponding spectral bands), called the spectral signature of the pixel.
