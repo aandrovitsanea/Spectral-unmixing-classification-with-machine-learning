@@ -41,7 +41,10 @@ These are some of the libraries implemented:
 
 ## Code
 
-The plots, models and results are presented in a [Jupyter Notebook](spectral_unmixing_classification_ML_Androvitsanea.ipynb).
+The plots, models and results are presented in a three Notebook:
+* [Part 1](spectral_unmixing_classification_ML_Androvitsanea_part1.ipynb)
+* [Part 2](spectral_unmixing_classification_ML_Androvitsanea_part2.ipynb)
+* [Total project](spectral_unmixing_classification_ML_Androvitsanea_part1_2_3.ipynb)
 
 ## Part 1: Spectral unmixing (SU)
 
