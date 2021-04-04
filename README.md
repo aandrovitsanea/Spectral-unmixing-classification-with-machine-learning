@@ -102,7 +102,7 @@ Finally I compare the results of the four classifiers.
 ## Scripts
 
 
-You can either open the [spectral_unmixing_classification_ML_Androvitsanea_parts1_2_3.ipynb) or run the [script](spectral_unmixing_classification_ML_Androvitsanea_parts1_2_3.py) as following:
+You can either open the [Notebook](spectral_unmixing_classification_ML_Androvitsanea_parts1_2_3.ipynb) or run the [script](spectral_unmixing_classification_ML_Androvitsanea_parts1_2_3.py) as following:
 
 ```
 python3 spectral_unmixing_classification_ML_Androvitsanea_parts1_2_3.py
