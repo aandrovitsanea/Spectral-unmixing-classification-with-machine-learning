@@ -99,4 +99,35 @@ The **second step** is the training of each classifier and the evaluation of its
 
 Finally I compare the results of the four classifiers.
 
+## Scripts
 
+
+You can either open the [spectral_unmixing_classification_ML_Androvitsanea_parts1_2_3.ipynb) or run the [script](spectral_unmixing_classification_ML_Androvitsanea_parts1_2_3.py) as following:
+
+```
+python3 spectral_unmixing_classification_ML_Androvitsanea_parts1_2_3.py
+```
+
+## Requirements:
+
+All scripts were developed using Python 3.8.6 on Ubuntu 20.04.1 LTS.
+
+They have been tested with the following package versions:
+
+* numpy == 1.19.4
+
+* matplotlib == 3.3.2
+
+* pandas == 1.1.4
+
+* scipy == 1.5.3
+
+* sklearn == 0.0
+
+* cvxopt == 1.2.5
+
+To install them run in a shell:
+
+```
+pip install -r requirements.txt
+```
